@@ -1,0 +1,143 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url("../img/back_s.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    text-align: center;
+}
+
+.box h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.box input[type = "text"],.box input[type = "number"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    border: 2px solid #ffffff;
+    padding: 10px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    vertical-align: bottom;
+}
+
+.box input[type="checkbox"] {
+    border: 1px solid #ccc;
+    background: white;
+    width: 1rem;
+    height: 1rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.box input[type="checkbox"]:checked {
+    background: #2ddf5c;
+    border: #0e4f1f;
+}
+
+.box input[type = "text"]:focus,.box input[type = "number"]:focus{
+    width: 280px;
+    border-color:#2ddf5c ;
+}
+
+.box input[type = "submit"] {
+    border:0;
+    background: grey;
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+    border: 2px solid #ffffff;
+    padding: 10px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: not-allowed;
+}
+
+/* .box input[type = "submit"]:hover {
+  background: #2ddf5c;
+} */
+
+.container-2 {
+    overflow:hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url("../img/back_s.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container-3 {
+    overflow:hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url("../img/back_s.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.container-2 h2{
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 90%;
+}
+
+td{
+    text-align: left;
+    padding: 8px;
+}
+
+.button{
+    text-align: center;
+    height:38px;
+    background: green;
+    border:0;
+    padding-left: 20px;
+    padding-right:20px;
+    color:#ffffff;
+    cursor:pointer;
+    border-radius:20px;
+    margin-top: 15px;
+}
+
+@media(min-width: 42rem) {
+    table {
+        max-width: 18rem;
+    }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keyword" content="Pubg Tournament, pubgmobileadda, pubgadda, addapubg, pubgmobile, mobileadda, pubg mobile adda, pubg, pubg mobile, tournament">
+	<meta name="description" content="Pubg Tournament">
+    <title>Register</title>
+    <link href="../img/icon.jpg" rel="icon" type="image/jpg">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cd77ba3fbf.js"></script>
+    <link rel="stylesheet" href="../css/styles_shared.css">
+    <link rel="stylesheet" href="../css/styles_register.css">
+    <meta google-site-verification: google829267e5c06ebde2.html>
+</head>
+<body>
+    <div class="backdrop"></div>
+    <header class="main-header">
+        <div class="main-header__left">
+            <div class="hamburger"><i class="fas fa-bars"></i></div> 
+                <div class="main-header__brandlogo">
+                    <a href="../index.php">PUBGMobile<span class="main-header__brandlogo-highlight">ADDA</span></a>
+                </div> 
+            </div>
+                <nav class="main-nav">
+                    <ul class="main-nav__items">
+                        <li class="main-nav__item"><a href="../index.php#showcase">Home</a></li>
+                        <li class="main-nav__item"><a href="../index.php#events">Events</a></li>
+                        <li class="main-nav__item"><a href="../index.php#results">Results</a></li>
+                        <li class="main-nav__item"><a href="../index.php#team">Our Team</a></li>
+                        <li class="main-nav__item"><a href="../contact.php">Contact</a></li>
+                    </ul>
+                </nav>    
+    </header>
+        <nav class="mobile-nav">
+            <ul class="mobile-nav__items">
+                <li class="mobile-nav__item"><a href="../index.php#showcase">Home</a></li>
+                <li class="mobile-nav__item"><a href="../index.php#events">Events</a></li>
+                <li class="mobile-nav__item"><a href="../index.php#results">Results</a></li>
+                <li class="mobile-nav__item"><a href="../index.php#team">Our Team</a></li>
+                <li class="mobile-nav__item"><a href="../contact.php">Contact</a></li>
+            </ul>
+            <div class="salutation">PUBGMobileADDA</div>
+        </nav>
+    <main>
+        <section>
+            <div class="container">
+                <form class="box" action="server.php" method="POST">
+                    <h1>Register</h1>
+                    <input type="text" name="team" placeholder="Team Name" required>
+                    <input type="text" name="leader" placeholder="Team Leader" required>
+                    <input type="number" name="phone" placeholder="WhatsApp Number" required>
+                    <input type="text" name="member1" placeholder="Team Member 1">
+                    <input type="text" name="member2" placeholder="Team Member 2">
+                    <input type="text" name="member3" placeholder="Team Member 3">
+                    <input type="checkbox" id="agree-terms" onchange="checkedChanged(this)"><label for="agree-terms"> Agree <a href="../docs/terms.pdf">Terms &amp; Conditions</a></label>                
+                    <input type="submit" disabled="disabled" id="accept" name="register" value="Register">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer">
+            <ul class="main-footer__items">
+                <li class="main-footer__item">Follow us on:</li>
+                <li class="main-footer__item btn"><a href="https://www.facebook.com/iftesar/"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="main-footer__item btn"><a href="https://www.instagram.com/pubgmobileadda/"><i class="fab fa-instagram"></i></a></li>
+                <li class="main-footer__item btn"><a href="https://www.youtube.com/channel/UCAfFySUSWtFonvE-NR5U6Xw"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+            <p>PUBGMobileADDA Team &copy <?php echo date('Y'); ?></p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="../js/shared.js"></script>
+</body>
+</html>

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keyword" content="Pubg Tournament, pubgmobileadda, pubgadda, addapubg, pubgmobile, mobileadda, pubg mobile adda, pubg, pubg mobile, tournament">
+		<meta name="description" content="Pubg Tournament">
+        <title>PUBGMobileADDA</title>
+        <link href="img/icon.jpg" rel="icon" type="image/jpg">
+        <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Roboto&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/cd77ba3fbf.js"></script>
+        <link rel="stylesheet" href="css/styles_shared.css">
+        <link rel="stylesheet" href="css/styles_index.css">
+        <meta google-site-verification: google829267e5c06ebde2.html>
+	</head>
+    <body>
+        <div class="backdrop"></div>
+        <div class="modal">
+            <h1 class="modal__title">Rules and Regulation</h1>
+            <ul class="modal__list">
+                <li>Fill out the form precisely.</li>
+                <li><b>Match will start at 7:30 pm (IST)</b> sharp. We’ll start sending out invites to the team leader from 7:10 pm (IST) sharp,
+                so be online. In case of Squads and Duo Team leader should add their teammate(s).</li>
+                <li><b>Registration closes an hour before the match</b></li>
+                <li>Payments are Non-refundable.</li>
+				<li>Match will be held on Erangel only.</li>
+				<li>Emulators are not allowed in this Tournament</li>
+                <li>Team who fails to join the Room on time will be disqualified</li>
+                <li>As soon as the match ends we will send the Prize money to the same handle through which we
+                received your entry fee.</li>
+            </ul>
+            <div class="modal__actions">
+                <a href="registration_1/index.php" class="modal__action">Register for Squad Event</a>
+                <a href="registration_2/index.php" class="modal__action">Register for Solo Event</a>
+            </div>
+        </div>
+        <header class="main-header">
+            <div class="main-header__left">
+                <div class="hamburger"><i class="fas fa-bars"></i></div> 
+                <div class="main-header__brandlogo">
+                    <a href="index.php">PUBGMobile<span class="main-header__brandlogo-highlight">ADDA</span></a>
+                </div> 
+            </div>
+                <nav class="main-nav">
+                    <ul class="main-nav__items">
+                        <li class="main-nav__item"><a href="#showcase">Home</a></li>
+                        <li class="main-nav__item"><a href="#events">Events</a></li>
+                        <li class="main-nav__item"><a href="#results">Results</a></li>
+                        <li class="main-nav__item"><a href="#team">Our Team</a></li>
+                        <li class="main-nav__item"><a href="contact.php">Contact</a></li>
+                    </ul>
+                </nav>    
+        </header>
+        <nav class="mobile-nav">
+            <ul class="mobile-nav__items">
+                <li class="mobile-nav__item"><a href="#showcase">Home</a></li>
+                <li class="mobile-nav__item"><a href="#events">Events</a></li>
+                <li class="mobile-nav__item"><a href="#results">Results</a></li>
+                <li class="mobile-nav__item"><a href="#team">Our Team</a></li>
+                <li class="mobile-nav__item"><a href="contact.php">Contact</a></li>
+            </ul>
+            <div class="salutation">PUBGMobileADDA</div>
+        </nav>
+    <main>
+        <section id="showcase">
+            <div class="showcase-container">
+                <h1>PUBGMobile<span class="highlight">ADDA</span><h1>
+                <p>India ka Naya Adda</p>
+            </div>
+        </section>
+        <section id="intro">
+            <div class="intro-container">
+                <h1>
+                    Welcome
+                </h1>
+                <p>We know how it feels to find out you are just wasting your time.</br>
+                    Wasting time on a mere game!</br>
+                    We also know its not just a game.</br>
+                    We here in PUBGMobileADDA, give a chance to prove yourself.</br>
+                    Prove that you are the next Shroud of your village.</br>
+                    Stop Playing Just For Fun. </br>
+                    Start Playing to Earn.</br>
+                    Let's GO!
+                </p>
+            </div>
+        </section>
+        <section id="events">
+            <div class="event-container">
+                <h2>Earn on kills</h2>
+                <div class="event-container__timer">
+                    <div class="clockdiv"> 
+                        <div> 
+                            <span class="days" id="day"></span> 
+                            <div class="smalltext">Days</div> 
+                        </div> 
+                        <div> 
+                            <span class="hours" id="hour"></span> 
+                            <div class="smalltext">Hours</div> 
+                        </div> 
+                        <div> 
+                            <span class="minutes" id="minute"></span> 
+                            <div class="smalltext">Minutes</div> 
+                        </div> 
+                        <div> 
+                            <span class="seconds" id="second"></span> 
+                            <div class="smalltext">Seconds</div> 
+                        </div> 
+                    </div> 
+                    <p id="statement"></p> 
+                </div>
+                <div class="event-container__details">
+                    <p>On 29<sup>th</sup> June, Bring your Squad to <br/>
+                    the most exciting event in the town.<br/>
+                    Earn on each of your kills.<br/>
+                    </p>
+					<p>Entry Fee: Rs 50<br/>Per kill: Rs 8<br/>#1/25: Rs 150*<br/>#2/25: Rs 100*</p>
+					<button id="button-1" class="event-registration__button">Register</button>
+                </div>
+            </div>
+
+            <div class="event-container">
+                <h2>Let's do it Solo</h2>
+                    <div class="event-container__timer">
+                        <div class="clockdiv"> 
+                            <div> 
+                                <span class="days" id="day_2"></span> 
+                                <div class="smalltext">Days</div> 
+                            </div> 
+                            <div> 
+                                <span class="hours" id="hour_2"></span> 
+                                <div class="smalltext">Hours</div> 
+                            </div> 
+                            <div> 
+                                <span class="minutes" id="minute_2"></span> 
+                                <div class="smalltext">Minutes</div> 
+                            </div> 
+                            <div> 
+                                <span class="seconds" id="second_2"></span> 
+                                <div class="smalltext">Seconds</div> 
+                            </div> 
+                        </div> 
+                        <p id="statement_2"></p> 
+                    </div>
+                    <div class="event-container__details">
+                        <p>Simplest of our event is here.<br/>
+                            Join the lobby solo.<br/>
+                            Bag in each and every kills of yours.<br/>
+                            More you kill.<br/> More you earn
+                        </p>
+                        <p>Entry Fee: Rs 20<br/>Per kill: Rs 14<br/>#1/100: Rs 250*<br/>#2/100: Rs 200*</p>
+                        <button id="button-2" class="event-registration__button">Register</button>
+                    </div>
+                </div>
+        </section>
+        <section id="results">
+            <div class="result-container">
+                <div class="result-container__details">
+                    <h2 class="result-container__detail-heading">Last Event winners</h2>
+                    <img src="img/result/r1.jpg" alt="result">
+                </div>
+                <div class="result-container__details">
+                    <p>Congratulation! To all the winners. </br> 
+                        Thank You for participating in our event.</br> 
+                        It means a lot to us</p>
+                        <button onclick="location.href=''" class="result-container__button">More Result</button>
+                </div>
+            </div>
+        </section>
+        <section id="team">
+            <div class="team-container">
+                <h1 class="team-container__heading">
+                    Our Team
+                </h1>
+                <div class="team-container__div">
+                    <div class="team-container__innerdiv">
+                        <div class="team-container__member">
+                            <div class="team-container__member-details">
+                                <div class="team-container__member-image">
+                                    <img src="img/team/virusX.png" alt="virusX" srcset="">
+                                </div>
+                                <div class="team-container__member-contact">
+                                    <p>
+                                        virusX <br/>
+                                        Contact: +91 70035 48534
+                                    </p>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-container__member">
+                            <div class="team-container__member-details">
+                                <div class="team-container__member-image">
+                                    <img src="img/team/iftesar.jpg" alt="iftesar" srcset="">
+                                </div>
+                                <div class="team-container__member-contact">
+                                    <p>
+                                        Iftesar<br/>
+                                        Contact: +91 87774 74785
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-container__innerdiv">
+                        <div class="team-container__member">
+                            <div class="team-container__member-details">
+                                <div class="team-container__member-image">
+                                    <img src="img/team/shahbaaz.jpg" alt="shahbaaz" srcset="">
+                                </div>
+                                <div class="team-container__member-contact">
+                                    <p>
+                                        Shahbaaz<br/>
+                                        Contact: +91 70035 65719
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-container__member">
+                            <div class="team-container__member-details">
+                                <div class="team-container__member-image">
+                                    <img src="img/team/arshad.jpg" alt="guala" srcset="">
+                                </div>
+                                <div class="team-container__member-contact">
+                                    Arshad</br>
+                                    Contact: +91 76870 81766
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-container__innerdiv">
+                        <div class="team-container__member">
+                            <div class="team-container__member-details">
+                                <div class="team-container__member-image">
+                                    <img src="img/team/nafis.jpg" alt="Nafis" srcset="">
+                                </div>
+                                <div class="team-container__member-contact">
+                                    <p>
+                                        Nafis<br/>
+                                        Contact: +91 82729 19664
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+        <footer class="main-footer">
+            <ul class="main-footer__items">
+                <li class="main-footer__item">Follow us on:</li>
+                <li class="main-footer__item btn"><a href="https://www.facebook.com/iftesar/"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="main-footer__item btn"><a href="https://www.instagram.com/pubgmobileadda/"><i class="fab fa-instagram"></i></a></li>
+                <li class="main-footer__item btn"><a href="https://www.youtube.com/channel/UCAfFySUSWtFonvE-NR5U6Xw"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+            <p>PUBGMobileADDA Team &copy</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
